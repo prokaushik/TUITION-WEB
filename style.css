@@ -115,12 +115,13 @@ ul{
 }
 
 .company-logo img{
-    width: 200px;
+    width: 100px;
     border-radius: 50rem;
 }
 
 .nav-link{
     flex-basis: 730px;
+    margin-left: 20vw;
 }
 
 .nav-link ul{
