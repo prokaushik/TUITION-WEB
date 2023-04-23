@@ -127,7 +127,32 @@ ul{
 .nav-link ul{
     justify-content: end;
     gap: 54px;
-    float: right;
     position: relative;
-    z-index: 597;
+    float: right;   
+}
+
+header{
+    padding: 50px var(--padding-inline-section);
+
+}
+
+.header-section{
+    justify-content: center;
+    gap: 50px;
+}
+
+.header-left{
+    max-width: 35vw;
+}
+
+.header-left h1{
+    margin-top: 20px;
+}
+
+.get-started-btn{
+    margin-top: 20px;
+}
+
+.header-right img{
+    width: 500px;
 }
