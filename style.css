@@ -156,3 +156,19 @@ header{
 .header-right img{
     width: 500px;
 }
+
+/*-----COMPANIES SECTION -----*/
+
+.companies-header{
+    text-align: center;
+    margin-block: 30px;
+    color: var(--primary-text-color);
+}
+
+.logo{
+    height: 80px;
+}
+
+.logos{
+justify-content: space-between;
+}
