@@ -224,3 +224,12 @@ justify-content: space-between;
     align-items: flex-start;
 
 }
+/*-EXAMPLES SECTION*/
+.examples-header{
+    text-align: center;
+    gap: 20px;
+}
+
+.example-header-text{
+    margin-bottom: 20px;
+}
