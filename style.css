@@ -172,3 +172,18 @@ header{
 .logos{
 justify-content: space-between;
 }
+
+/*---------------FEATURE SECTION-------*/
+
+
+.feature-section{
+    padding: 80px var(--padding-inline-section);
+}
+
+.features-header{
+    text-align: center;
+}
+
+.feature-header-text{
+    margin-bottom: 20px;
+}
