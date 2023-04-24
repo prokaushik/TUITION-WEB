@@ -178,7 +178,9 @@ justify-content: space-between;
 
 .feature-section{
     padding: 80px var(--padding-inline-section);
-    background-image: url(./ASSESTS/8.avif);
+    background-image: url(./ASSESTS/9.webp);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .features-header{
@@ -202,4 +204,10 @@ justify-content: space-between;
     gap: 20px;
     max-width: 30%;
     text-align:center;
+}
+
+/* big feature section*/
+
+.big-feature-container{
+    
 }
