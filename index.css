@@ -20,15 +20,18 @@ body{
 
 h1{
     font-size: 3rem;
+    color: black;
 
 }
 
 h2{
     font-size: 2rem;
+    color: black;
 }
 
 h3{
     font-size: 1.5rem;
+    color: black;
 }
 
 p{
@@ -36,7 +39,12 @@ p{
     font-size: 1.25;
     color: var(--secondary-text-color);
     line-height: 1.8rem;
+
 }
+span{
+    color: black;
+}
+
 
 a{
     text-decoration:none ;
