@@ -6,10 +6,10 @@
 }
 
 :root{
-    --primary-text-color:#183b56;
-    --secondary-text-color:#577592;
-    --accent-color:#2294ed;
-    --accent-color-dark:#1d69a3;
+    --primary-text-color:#FFB4A2;
+    --secondary-text-color:#FFB4A2;
+    --accent-color:#B5828C;
+    --accent-color-dark:#E5989B;
     --padding-inline-section:20px;
 }
 
@@ -19,30 +19,49 @@ body{
 }
 
 h1{
-    font-size: 3rem;
-    color: black;
+    font-size: 4rem;
+    color: #B5828C;
 
 }
 
 h2{
-    font-size: 2rem;
-    color: black;
+    font-size: 3rem;
+    color: #B5828C;
 }
+
 
 h3{
     font-size: 1.5rem;
-    color: black;
+    color: #FFB4A2;
+    margin: 10px 0px;
 }
-
+h4{
+    font-size: 3rem;
+    color: white;
+    margin: 10px 0px;
+    justify-content: center;
+    align-items: center;
+}
+h5{
+    font-size: 3rem;
+    color: #B5828C;
+    margin: 10px 0px;
+    justify-content: center;
+    align-items: center;
+}
 p{
     font-size:'Roboto', sans-serif ;
-    font-size: 1.25;
+    font-size: 2;
     color: var(--secondary-text-color);
-    line-height: 1.8rem;
+    line-height: 2rem;
 
 }
 span{
-    color: black;
+    color: #E5989B;
+}
+
+.redi{
+    color: #B5828C;
 }
 
 
@@ -109,7 +128,7 @@ ul{
 
 /*top banner*/
 .top-banner{
-    background-color: #4fb3d4;
+    background-color: #B5828C;
 }
 .banner-text{
     color: white;
@@ -123,8 +142,9 @@ ul{
 }
 
 .company-logo img{
-    width: 100px;
-    border-radius: 50rem;
+    width: 80px;
+    border-radius: 60rem;
+    margin-top: 5px;
 }
 
 .nav-link{
@@ -165,30 +185,38 @@ header{
     width: 500px;
 }
 
+.home_img{
+    margin-left: 40px;
+}
+
 /*-----COMPANIES SECTION -----*/
 
 .companies-header{
     text-align: center;
     margin-block: 30px;
+    font-size: x-large;
     color: var(--primary-text-color);
 }
 
 .logo{
-    height: 80px;
+    height: 120px;
+    width: 120px;
+    border-radius: 50rem;
 }
 
 .logos{
-justify-content: space-between;
+    justify-content: space-between;
+    margin: 2px 50px ;
+    
+
 }
 
 /*---------------FEATURE SECTION-------*/
 
 
 .feature-section{
-    padding: 80px var(--padding-inline-section);
-    background-image: url(./ASSESTS/9.webp);
-    background-repeat: no-repeat;
-    background-position: center;
+    padding: 60px var(--padding-inline-section);
+    margin: 10px;
 }
 
 .features-header{
@@ -204,6 +232,7 @@ justify-content: space-between;
     justify-content: space-between;
     gap: 40px;
     margin-top: 20px;
+    
 
 }
 
@@ -212,71 +241,50 @@ justify-content: space-between;
     gap: 20px;
     max-width: 30%;
     text-align:center;
+    background-color: white;
+    color: #B5828C;
+    margin: 5px;
 }
 
-/* big feature section*/
-
-.big-feature-section {
-    padding: 30px var(--padding-inline-section);
+.features-card:hover{
+ border-style: solid;
+ border-color: #B5828C;
 }
 
-.big-feature-container{
-    gap:30px ;
-}
-
-.feature-img img{
-    width: 100%;
-}
-.feature-decs{ 
-    flex-direction: column;
-    align-items: flex-start;
-
-}
-/*-EXAMPLES SECTION*/
-.examples-header{
-    text-align: center;
-    gap: 20px;
-}
-
-.example-header-text{
-    margin-bottom: 20px;
-}
-
-.example-areas{
-    justify-content: space-between;
-    margin-block: 30px;
-}
-.example-card{
-    width: 23%;
-    position: relative;
-    min-height: 300px;
-    background: black;
-    background: linear-gradient rgb(0, 0, 0, 0.1) url(./ASSESTS/9.webp) ;
-}
-
-.card-text{
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    right: 20px;
-    color: white;
+.featuresimg{
+    margin: 30px;
+    border-radius: 10%;
+    width: 100px;
+    height: 100px;
 }
 
 /*----------cta-section-container---------*/
 .cta-section-container{
-    flex-direction: column;
-    gap: 50px;
+    height: 250px;
     color: white;
 }
 .cta-section{
-    padding: 120px var(--padding-inline-section);
-
-    background-color: #183b54;
+    background-color: #B5828C;
 
 }
 
 .cta-section-container p{
     color: white;
-    margin-top: 20px;
+    margin-top: 0px;
+    
+}
+
+.cta-section-container2{
+    height: 250px;
+    color: #B5828C;
+}
+.cta-section2{
+    background-color: white;
+
+}
+
+.cta-section-container2 p{
+    color: #B5828C;
+    margin-top: 0px;
     
 }
